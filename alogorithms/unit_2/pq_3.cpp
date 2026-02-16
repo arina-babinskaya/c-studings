@@ -2,10 +2,10 @@
 #include <queue>
 
 int main() {
-    int n, k;
+    long long n, k;
     std::cin >> n >> k;
-    std::priority_queue<int> data;
-    int sum = 0;
+    std::priority_queue<long long> data;
+    long long sum = 0;
     for (size_t i=0; i<n; ++i) {
         int num;
         std::cin >> num;
